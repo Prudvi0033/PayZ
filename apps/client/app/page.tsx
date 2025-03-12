@@ -1,4 +1,7 @@
 import React from 'react'
+import {PrismaClient} from "@repo/db/client"
+
+const prisma = new PrismaClient()
 
 const page = () => {
   return (
